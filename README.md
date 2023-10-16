@@ -1,1 +1,3 @@
-# jave_network_final_project
+# Stick Game By Java
+
+Jave Network Final Project
