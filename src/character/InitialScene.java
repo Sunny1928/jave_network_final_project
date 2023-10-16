@@ -9,14 +9,14 @@ import java.io.IOException;
 public class InitialScene extends MouseAdapter{
 		
 		JButton button_start = new JButton();
-		ImageIcon image_b1 = new ImageIcon("button1.png");
-		ImageIcon image_b2 = new ImageIcon("button2.png");
+		ImageIcon image_b1 = new ImageIcon("image/button1.png");
+		ImageIcon image_b2 = new ImageIcon("image/button2.png");
 		
 		public InitialScene() {
  
 		JFrame frame = new JFrame();
 		JLabel label = new JLabel();
-		ImageIcon image_bg = new ImageIcon("background.png");
+		ImageIcon image_bg = new ImageIcon("image/background.png");
 		Image img = image_bg.getImage();
 		img = img.getScaledInstance(1024, 576, Image.SCALE_DEFAULT);
 		image_bg.setImage(img);
@@ -54,7 +54,7 @@ public class InitialScene extends MouseAdapter{
 		frame.setTitle("Stick Fight");
 		frame.setLocationRelativeTo((Component)(null));
 		frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);		
-		ImageIcon image_logo = new ImageIcon("logo.png");
+		ImageIcon image_logo = new ImageIcon("image/logo.png");
 		frame.setIconImage(image_logo.getImage());
 		frame.setResizable(false);
 		frame.setVisible(true);

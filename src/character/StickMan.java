@@ -27,7 +27,7 @@ public class StickMan implements Runnable {
 	private int speedX;
 	private int speedY;
 	private GameFrame gf;
-	private Image stickMan = (new ImageIcon("girl_left.png")).getImage();
+	private Image stickMan = (new ImageIcon("image/girl_left.png")).getImage();
 	private boolean left = false;
 	private boolean right = false;
 	private boolean up = false;
@@ -132,7 +132,7 @@ public class StickMan implements Runnable {
 					dir = 0;
 					this.x -= this.speedX;
 					
-					stickMan = (new ImageIcon("girl_left.png")).getImage();
+					stickMan = (new ImageIcon("image/girl_left.png")).getImage();
 					
 				}
 				
@@ -156,7 +156,7 @@ public class StickMan implements Runnable {
 				if (this.x + 32 <= 1024) {
 					dir = 1;
 					this.x += this.speedX;
-					stickMan = (new ImageIcon("girl_right.png")).getImage();
+					stickMan = (new ImageIcon("image/girl_right.png")).getImage();
 				}
 				/*
 				 * below added by guo
@@ -317,7 +317,7 @@ public class StickMan implements Runnable {
 	
 	public void drawBloods(Graphics g) {
 		for(int i = 0; i<blood; i++) {
-		   g.drawImage((new ImageIcon("heart.png")).getImage(), 980-i*32, 32, 32, 32, (ImageObserver)null);
+		   g.drawImage((new ImageIcon("image/heart.png")).getImage(), 980-i*32, 32, 32, 32, (ImageObserver)null);
 		 }
 
 	}

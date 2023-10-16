@@ -31,12 +31,12 @@ public class MapList {
 
   switch(r2){
    case 0 :
-    this.img1 = ImageIO.read(new File("./tile.png"));
-    this.img2 = ImageIO.read(new File("./grass.png"));
+    this.img1 = ImageIO.read(new File("image/tile.png"));
+    this.img2 = ImageIO.read(new File("image/grass.png"));
     break;
    case 1 :
-    this.img2 = ImageIO.read(new File("./stone_lava.png"));
-    this.img1 = ImageIO.read(new File("./lava.png"));
+    this.img2 = ImageIO.read(new File("image/stone_lava.png"));
+    this.img1 = ImageIO.read(new File("image/lava.png"));
     break;
    default :
     break;

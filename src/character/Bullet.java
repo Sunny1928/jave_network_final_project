@@ -13,7 +13,7 @@ public class Bullet implements Runnable{
 	private int stickmanID;
 	private int id; 
 	
-    private Image bullet = (new ImageIcon("bullet.png")).getImage();
+    private Image bullet = (new ImageIcon("image/bullet.png")).getImage();
     private GameFrame gf;
     private double valX;
     private double valY;

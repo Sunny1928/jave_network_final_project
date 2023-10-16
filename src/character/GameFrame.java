@@ -45,14 +45,14 @@ public class GameFrame extends JFrame {
 	
 	private int deathNum = 0;
     
-	private Image girlLeftImage = (new ImageIcon("girl_left.png")).getImage();
-	private Image girlRightImage = (new ImageIcon("girl_right.png")).getImage();
-	private Image girl2LeftImage = (new ImageIcon("girl2_left.png")).getImage();
-	private Image girl2RightImage = (new ImageIcon("girl2_right.png")).getImage();
-	private Image manLeftImage = (new ImageIcon("man_left.png")).getImage();
-	private Image manRightImage = (new ImageIcon("man_right.png")).getImage();
-	private Image man2LeftImage = (new ImageIcon("man2_left.png")).getImage();
-	private Image man2RightImage = (new ImageIcon("man2_right.png")).getImage();
+	private Image girlLeftImage = (new ImageIcon("image/girl_left.png")).getImage();
+	private Image girlRightImage = (new ImageIcon("image/girl_right.png")).getImage();
+	private Image girl2LeftImage = (new ImageIcon("image/girl2_left.png")).getImage();
+	private Image girl2RightImage = (new ImageIcon("image/girl2_right.png")).getImage();
+	private Image manLeftImage = (new ImageIcon("image/man_left.png")).getImage();
+	private Image manRightImage = (new ImageIcon("image/man_right.png")).getImage();
+	private Image man2LeftImage = (new ImageIcon("image/man2_left.png")).getImage();
+	private Image man2RightImage = (new ImageIcon("image/man2_right.png")).getImage();
 	
 	public GameFrame() throws Exception {
 		AudioInputStream open_audioStream = AudioSystem.getAudioInputStream(open_file);
